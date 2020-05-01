@@ -1,7 +1,5 @@
 #coding:utf-8
-#coding: utf-8
-#--**Created by MIKE Gao on 24th Aug 2018**--
-#*****Main Trainning*****
+
 import os
 import numpy as np
 from PIL import Image
@@ -10,8 +8,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Convolution2D, Flatten, Dropout, MaxPooling2D,Dense,Activation
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.utils import to_categorical
-#from tensorflow.keras.utils import np_utils
-#from tensorflow.keras.utils.np_utils import to_categorical
+
 
 #Pre process images
 class PreFile(object):
