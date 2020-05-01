@@ -20,7 +20,7 @@ def FileReName(CellType,FilePath):
 
         
 #重新图片尺寸
-def FileResize(Output_folder,DogType,FilePath,Width=100, Height=100):
+def FileResize(Output_folder,CellType,FilePath,Width=100, Height=100):
     for type in CellType:
         for i in os.listdir(FilePath+type):
             img_open = Image.open(FilePath+type+'/'+i)
