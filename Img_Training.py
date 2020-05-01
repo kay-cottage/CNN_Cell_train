@@ -19,7 +19,7 @@ class PreFile(object):
 
     def FileReName(self):
         count = 0
-        for type in self.CellType: #For dog type output each dog foler name
+        for type in self.CellType: 
             subfolder = os.listdir(self.FilePath+type)  # list up all folder
             for subclass in subfolder:  #output name of folder
                 print ('count_classese:->>' , count)
